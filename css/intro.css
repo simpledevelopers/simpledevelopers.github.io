@@ -1,0 +1,25 @@
+#intro1 ul{
+	
+	list-style-type: none;
+	
+}
+#intro1 li{
+	margin-top: 10px;
+	display: inline-block;
+	padding: 10px;
+	font-style: bold;
+    width: 90%;
+	margin: 0 auto;
+	text-align: center;
+    margin-bottom: 1px;
+	font-family: Intro;
+	list-style-type: none;
+}
+
+#intro1 li:first-child{
+	background-size: cover;
+	background: blue;
+	color: #fff;
+	font-size: 90%;
+	border-radius: 5px;
+}

@@ -1,0 +1,569 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	background: #eee;
+	padding: 0px 10px 0px 0px;
+}
+
+
+.container{
+width: 94%;
+margin-top: 10px;
+display: inline-flex;
+height: 100px;
+margin: 0 auto;
+
+background-color: #fff;
+
+}
+.logo{
+	padding: 5px;
+	background-color: #fff;
+	width: 50%;
+  min-height: 50px;
+}
+.logo img{
+	border-radius: 20px;
+  width: 100%;
+  min-width: 30%;
+  min-height: 50px;
+  height: 100%;
+}
+
+.about {
+justify-content: center;
+padding: 5px;
+min-width: 30px;
+min-height: 50px;
+}
+.about a{
+ text-decoration: none;
+}
+.about p{
+ font-family: arial;
+ font-size: 18px;
+ 
+}
+
+.about h1{
+ text-align: center;
+}
+.offers{
+	text-align: center;
+	font-style: italic;
+	font-family: Intro;
+}
+/*
+Styles for the about us 
+file
+*/
+ .about_container{
+   	width: 100%;
+   	background-color: #fff;
+   	margin-top: 0px;
+   	padding: 20px;
+   	display: block;
+   }
+   /*
+   *Styles for the products page
+   */
+.product-wrapper{
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	background-color: #fff;
+ 	padding: 10px;
+ 	margin-top: 10px;
+ }
+.product{
+	width: 97.5%;
+	 font-family:  Intro;
+	 padding: 7px;
+	background-color: #eee;
+	font-family: 
+
+}
+.product ul{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*
+*Index page styles
+*/
+.index-wrapper{
+
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  padding: 20px;
+  font-family: Intro;  
+}
+.index-wrapper a{
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+   text-decoration: none;
+   background-color: blue;
+    color: white;
+   text-align: center;
+   font-size: 25px;
+   padding: 10px; 
+}
+.index-wrapper a:hover{
+  background-color: green;
+  color: white;
+  }
+.index-wrapper p{
+  font-size: 25px;
+ font-style: italic;
+  line-height: 140%;
+}
+
+
+/*
+Styles for the footer on every page
+*/
+
+.footer{
+	padding-top:20px;
+	padding-bottom: 0px;
+	width: 100%;
+	display: block;
+	background-color: #eee;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.footer p{
+	color: #181818;
+	font-family: lato;
+	font-size: 15px;
+	text-align: center;
+	margin: 5px;
+}
+.footer h5{
+	color: #181818;
+	font-family: Intro;
+	font-size: 16px;
+	margin: 10px;
+	text-decoration: underline;
+	text-align: center;
+}
+.footer a{
+	margin-left: 5px;
+	color:green;
+	font-family: lato;
+	text-decoration: none;
+}
+.footer p:nth-child(4){
+  margin-left: 17%;
+}
+
+
+
+/*
+Here are the styles for all the ids in my site
+*/
+
+#main-navigation {	
+background-position: top right;
+background-color: blue;
+width: 90%;
+margin: 0 auto;
+border-radius: 10px;
+text-shadow: 1px 1px 8px blue;
+padding: 0.1px;
+	}
+	
+#main-navigation ul{
+	text-align:left;
+	list-style-type: none;
+	
+}
+#main-navigation li{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#main-navigation a{
+	color: #fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding:6px;
+}
+#main-navigation a:hover{
+	background-color: white;
+	color: blue;
+	text-decoration-style: bold;
+	min-width: 48px;
+	min-height: 48px;
+	border-radius: 2px;
+
+}
+
+#main-navigation a.current{
+	background:#8f746c;
+	border-radius: 5px;
+}
+#main-navigation a.current:hover{
+	background-color: white;
+	color: blue;
+	text-decoration-style: bold;
+	min-width: 48px;
+	min-height: 48px;
+	border-radius: 2px;
+}
+
+
+/*
+The styles for my responsive design
+Start by a device with a minimum  width of 350px;
+
+*/
+
+@media screen and (min-width: 155px){
+    hr{
+    	display: none;
+    }
+    #main-navigation li{
+	margin-right: 2%;
+   }
+
+    #main-navigation li:first-child{
+	margin-right: 14px;
+   }
+   #main-navigation {
+	width: 94%;
+	border-radius: 0;
+	margin: 0 auto;
+   }
+
+	#main-navigation a{
+	color: #fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 38%;
+   }
+
+   .container{
+   	width: 94%;
+   	display: block;
+   	height: 100%;
+   	margin: 0 auto;
+   	margin-top: 10px;
+   
+   }
+
+   .logo{
+   	margin-top: 25px;
+   	width: 80%;
+   	margin: 0 auto;
+   }
+
+   .logo img{
+   	width: 100%;
+   	height: 100%;
+   }
+
+   .about{
+   	padding: 10px;
+   	justify-content: center;
+   	width: 100%;
+   }
+    
+    .about h1{
+    	width: 95%;
+      margin: 0 auto;
+      font-size: 18px;
+      font-family:  Intro;
+      text-shadow: 1px 1px 10px #3c3c3c;
+   }
+   .about p{
+   	display: none;
+      font-size: 15px;
+      font-family:  lato;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      word-spacing: 3px;
+   }
+   .offers h2{
+    font-size: 20px;
+    letter-spacing: 5px; 
+   }
+   .about_container h3{
+    font-size: 14px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0;
+   }
+   .about_container p{
+    font-size: 15px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+   }
+  
+  .product li>p{
+	font-size: 15px;
+    font-family:  Intro;
+    width: 90%;
+    margin: 0 auto;
+   
+	}
+
+	.product h1{
+	 font-size: 25px;  
+	}
+	.product h3{
+	 font-size: 20px; 
+	 color: #3c3c3c; 
+	}
+}
+
+
+/*
+The styles for my responsive design
+Start by a device with a minimum  width of 350px;
+
+*/
+
+@media screen and (min-width: 412px)and (max-width: 950px){
+ 
+   
+    #main-navigation li:first-child{
+	margin-right: 80px;
+
+   }
+   #main-navigation li:nth-child(3){
+   	margin-right: 4%;
+	margin-left: 20px;
+   } 
+   #main-navigation li:nth-child(2){
+	margin-right: 4%;
+	margin-left: 20px;
+
+   }
+   #main-navigation li:last-child{
+   	margin-right: 10px;
+	margin-left: 4%;
+   }
+   #main-navigation {
+	width: 94%;
+   	border-radius: 5px;
+	margin: 0 auto;
+   }
+
+	#main-navigation a{
+	color: #fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 68%;
+   }
+
+   .container{
+   	width: 94%;
+   	display: block;
+   	height: 100%;
+   	margin: 0 auto;
+   	margin-top: 10px;
+   
+   }
+
+   .logo{
+   	margin-top: 25px;
+   	width: 80%;
+   	margin: 0 auto;
+   }
+
+   .logo img{
+   	width: 100%;
+   	height: 100%;
+   }
+
+   .about{
+   	padding: 10px;
+   	justify-content: center;
+   	width: 100%;
+   }
+    
+    .about h1{
+    	width: 95%;
+      margin: 0 auto;
+      font-size: 18px;
+      font-family:  Intro;
+      text-shadow: 1px 1px 10px #3c3c3c;
+   }
+   .about p{
+      font-size: 15px;
+      font-family:  lato;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      word-spacing: 3px;
+   }
+   .offers h2{
+    font-size: 20px;
+    letter-spacing: 5px; 
+   }
+   .about_container h3{
+    font-size: 22px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0;
+   }
+   .about_container p{
+    font-size: 18px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+   }
+  
+  .product{
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+  .product li{
+  	width: 40%;
+  	padding: 2.5%
+
+  }
+  .product li:last-child{
+  	width: 90%;
+  	margin-top: 15px;
+  	margin: 0 auto;
+  	
+  }
+  .product li:last-child>h3{
+  	width: 70%;
+  	margin: 0 auto;
+  }
+
+
+  .product li>p{
+	font-size: 18px;
+    font-family:  Intro;
+    width: 90%;
+    margin: 0 auto;
+   
+	}
+
+	.product h1{
+		width: 60%;
+  	    margin: 0 auto;
+	 font-size: 25px;  
+	}
+	.product h3{
+	 font-size: 22px; 
+	 color: #3c3c3c; 
+	}
+	hr{
+		display: flex;
+		text-shadow: 2px 2px 10px blue;
+		height: 2px;
+	}
+
+}
+
+ @media screen and (min-width: 960px){
+  
+  body{
+    padding: 60px;
+    padding-bottom: 0px;
+  }
+  #main-navigation li:first-child{
+  margin-right: 90px;
+
+   }
+   #main-navigation li:nth-child(3){
+    margin-right: 8%;
+  margin-left: 15px;
+   } 
+   #main-navigation li:nth-child(2){
+  margin-right: 8%;
+  margin-left: 20px;
+
+   }
+   #main-navigation li:last-child{
+    margin-right: 15px;
+    margin-left: 8%;
+   }
+   #main-navigation {
+
+    border-radius: 15px;
+   }
+
+  #main-navigation a{
+  color: #fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 78%;
+   }
+   .about_container h3{
+    font-size: 32px;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+   }
+   .about_container{
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 30px;
+   }
+    .about_container p{
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+   }
+   .about_container p:last-child{
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   }
+    .about_container p:first-child{
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+   }
+
+    .product{
+      display: inline-block;
+    }
+  .product li{
+    width: 30%;
+    padding: 0.25%
+
+  }
+  .product li:last-child{
+    width: 33%;
+    
+  }
+
+
+  .product li>p{
+    font-size: 18px;
+    font-family:  Intro;
+    width: 95%;
+    margin: 0 auto;
+   
+  }
+
+  .product h1{
+    width: 60%;
+        margin: 0 auto;
+   font-size: 25px;  
+  }
+  .product h3{
+   font-size: 22px; 
+   color: #3c3c3c; 
+  }
+
+  }
