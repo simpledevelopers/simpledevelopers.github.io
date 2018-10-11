@@ -1,8 +1,12 @@
 body{
 	font-family: sans-serif;
 	margin: 0;
-	background: #eee;
-	padding: 0px 10px 0px 0px;
+  background-color: #EACA65;
+  background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	padding: 10px ;
 }
 
 
@@ -68,17 +72,16 @@ file
    *Styles for the products page
    */
 .product-wrapper{
- 	width: 90%;
+ 	width: 100%;
+  color: white;
  	margin: 0 auto;
- 	background-color: #fff;
- 	padding: 10px;
  	margin-top: 10px;
  }
 .product{
 	width: 97.5%;
 	 font-family:  Intro;
 	 padding: 7px;
-	background-color: #eee;
+   padding: 10px;
 	font-family: 
 
 }
@@ -92,12 +95,11 @@ file
 *Index page styles
 */
 .index-wrapper{
-
   margin: 0 auto;
   margin-top: 20px;
-  background-color: white;
   border-radius: 20px;
   width: 80%;
+  color: white;
   padding: 20px;
   font-family: Intro;  
 }
@@ -106,20 +108,28 @@ file
     margin-left: 45%;
     margin-right: 45%;
    text-decoration: none;
-   background-color: blue;
+    color:black;
     color: white;
-   text-align: center;
+    text-align: center;
    font-size: 25px;
    padding: 10px; 
 }
 .index-wrapper a:hover{
-  background-color: green;
+  background-color: blue;
   color: white;
   }
-.index-wrapper p{
-  font-size: 25px;
- font-style: italic;
+
+.index-wrapper p:nth-child(2){
+  font-size: 20px;
   line-height: 140%;
+}
+
+.index-wrapper p:nth-child(3){
+   font-size: 20px;
+  line-height: 140%;
+}
+.index-wrapper p{
+   font-size:25px;
 }
 
 
@@ -132,7 +142,7 @@ Styles for the footer on every page
 	padding-bottom: 0px;
 	width: 100%;
 	display: block;
-	background-color: #eee;
+	background-color: #EACA65;
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
@@ -224,19 +234,136 @@ Start by a device with a minimum  width of 350px;
 
 */
 
-@media screen and (min-width: 155px){
+@media screen and (min-width: 200px){
+    hr{
+      display: none;
+    }
+    /*#main-navigation li{
+  margin-right: 1%;
+   }*/
+
+    #main-navigation li:first-child{
+  margin-right: 4%;
+   }
+    #main-navigation li:last-child{
+  margin-right: 2px;
+  visibility: hidden;
+   }
+   #main-navigation {
+  width: 100%;
+  border-radius: 0;
+  margin: 0 auto;
+   }
+
+  #main-navigation a{
+  color: #fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 50%;
+   }
+
+   .container{
+    width: 94%;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+   }
+   .c-container{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+   }
+
+   .logo{
+    margin-top: 25px;
+    width: 80%;
+    margin: 0 auto;
+   }
+
+   .logo img{
+    width: 100%;
+    height: 100%;
+   }
+
+   .about{
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+   }
+    
+    .about h1{
+      width: 95%;
+      margin: 0 auto;
+      font-size: 18px;
+      font-family:  Intro;
+      text-shadow: 1px 1px 10px #3c3c3c;
+   }
+   .about p{
+    display: none;
+      font-size: 15px;
+      font-family:  lato;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      word-spacing: 3px;
+   }
+   .offers h2{
+    font-size: 20px;
+    letter-spacing: 5px; 
+   }
+   .about_container h3{
+    font-size: 14px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0;
+   }
+   .about_container p{
+    font-size: 15px;
+    font-family:  Intro;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+   }
+  
+  .product li>p{
+  font-size: 15px;
+    font-family:  Intro;
+    width: 90%;
+    margin: 0 auto;
+   
+  }
+
+  .product h1{
+   font-size: 25px;  
+  }
+  .product h3{
+   font-size: 20px; 
+   color: #3c3c3c; 
+  }
+}
+
+
+@media screen and (min-width: 350px){
     hr{
     	display: none;
     }
     #main-navigation li{
-	margin-right: 2%;
+	margin-right: 8%;
    }
 
     #main-navigation li:first-child{
-	margin-right: 14px;
+	margin-right: 8%;
+   }
+     #main-navigation li:last-child{
+    visibility: visible;
+    margin-top:10px;
+    margin-left:  56%;s
    }
    #main-navigation {
-	width: 94%;
+	width: 100%;
 	border-radius: 0;
 	margin: 0 auto;
    }
@@ -245,7 +372,7 @@ Start by a device with a minimum  width of 350px;
 	color: #fff;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 38%;
+	font-size: 60%;
    }
 
    .container{
@@ -331,38 +458,50 @@ The styles for my responsive design
 Start by a device with a minimum  width of 350px;
 
 */
+@media screen and (min-width: 950px){
+
+ #main-navigation li:last-child {
+    visibility: visible;
+    #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
+  margin-right: 20%;
+
+       }
+   }
+
+  #main-navigation a{
+
+  font-size: 108%;
+   }
+ }
 
 @media screen and (min-width: 412px)and (max-width: 950px){
  
-   
-    #main-navigation li:first-child{
-	margin-right: 80px;
+   .index-wrapper p{
+  font-size: 25px;
+  line-height: 140%;
+}
+    #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
+	margin-right: 8%;
 
    }
-   #main-navigation li:nth-child(3){
-   	margin-right: 4%;
-	margin-left: 20px;
-   } 
-   #main-navigation li:nth-child(2){
-	margin-right: 4%;
-	margin-left: 20px;
-
-   }
-   #main-navigation li:last-child{
-   	margin-right: 10px;
-	margin-left: 4%;
+ 
+   #main-navigation li:last-child {
+    visibility: visible;
+ 
    }
    #main-navigation {
 	width: 94%;
    	border-radius: 5px;
 	margin: 0 auto;
+
+  margin-top: 20px;
    }
 
 	#main-navigation a{
 	color: #fff;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 68%;
+	font-size: 58%;
    }
 
    .container{
@@ -469,7 +608,16 @@ Start by a device with a minimum  width of 350px;
 	}
 
 }
+ @media screen and (min-width: 570px){
+ #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
+  margin-right: 10%;
 
+   }
+   #main-navigation a{
+  
+  font-size: 68%;
+   }
+ }
  @media screen and (min-width: 960px){
   
   body{
