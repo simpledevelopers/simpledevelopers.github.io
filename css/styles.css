@@ -360,7 +360,7 @@ Start by a device with a minimum  width of 350px;
      #main-navigation li:last-child{
     visibility: visible;
     margin-top:10px;
-    margin-left:  56%;s
+    margin-left:  56%;
    }
    #main-navigation {
 	width: 100%;
@@ -462,12 +462,12 @@ Start by a device with a minimum  width of 350px;
 
  #main-navigation li:last-child {
     visibility: visible;
-    #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
+   
+   }
+ #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
   margin-right: 20%;
 
        }
-   }
-
   #main-navigation a{
 
   font-size: 108%;
@@ -481,13 +481,13 @@ Start by a device with a minimum  width of 350px;
   line-height: 140%;
 }
     #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
-	margin-right: 8%;
+	   margin-right: 8%;
 
    }
  
    #main-navigation li:last-child {
     visibility: visible;
- 
+    margin-left: 8%
    }
    #main-navigation {
 	width: 94%;
