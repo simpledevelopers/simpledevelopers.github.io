@@ -3,10 +3,9 @@ body{
 	margin: 0;
   background-color: #EACA65;
   background-image: url("../images/2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-	padding: 10px ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
@@ -63,10 +62,11 @@ file
 */
  .about_container{
    	width: 100%;
-   	background-color: #fff;
-   	margin-top: 0px;
-   	padding: 20px;
+   	padding-top: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
    	display: block;
+    color: white;
    }
    /*
    *Styles for the products page
@@ -75,7 +75,7 @@ file
  	width: 100%;
   color: white;
  	margin: 0 auto;
- 	margin-top: 10px;
+ 	padding-top: 70px;
  }
 .product{
 	width: 97.5%;
@@ -171,109 +171,19 @@ Styles for the footer on every page
   margin-left: 17%;
 }
 
-
-
-/*
-Here are the styles for all the ids in my site
-*/
-
-#main-navigation {	
-background-position: top right;
-background-color: blue;
-width: 90%;
-margin: 0 auto;
-border-radius: 10px;
-text-shadow: 1px 1px 8px blue;
-padding: 0.1px;
-	}
-	
-#main-navigation ul{
-	text-align:left;
-	list-style-type: none;
-	
-}
-#main-navigation li{
-	display: inline-block;
-	margin-left: 5px;
-}
-
-#main-navigation a{
-	color: #fff;
-	text-decoration:none;
-	text-transform: uppercase;
-	font-size: 20px;
-	padding:6px;
-}
-#main-navigation a:hover{
-	background-color: white;
-	color: blue;
-	text-decoration-style: bold;
-	min-width: 48px;
-	min-height: 48px;
-	border-radius: 2px;
-
-}
-
-#main-navigation a.current{
-	background:#8f746c;
-	border-radius: 5px;
-}
-#main-navigation a.current:hover{
-	background-color: white;
-	color: blue;
-	text-decoration-style: bold;
-	min-width: 48px;
-	min-height: 48px;
-	border-radius: 2px;
-}
-
-
 /*
 The styles for my responsive design
 Start by a device with a minimum  width of 350px;
 
 */
 
-@media screen and (min-width: 200px){
-    hr{
-      display: none;
-    }
-    /*#main-navigation li{
-  margin-right: 1%;
-   }*/
 
-    #main-navigation li:first-child{
-  margin-right: 4%;
-   }
-    #main-navigation li:last-child{
-  margin-right: 2px;
-  visibility: hidden;
-   }
-   #main-navigation {
-  width: 100%;
-  border-radius: 0;
-  margin: 0 auto;
-   }
 
-  #main-navigation a{
-  color: #fff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size: 50%;
-   }
-
-   .container{
-    width: 94%;
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    margin-top: 10px;
-   }
    .c-container{
     width: 80%;
     height: 100%;
     margin: 0 auto;
-    margin-top: 10px;
+    padding-top: 70px;
    }
 
    .logo{
@@ -343,37 +253,14 @@ Start by a device with a minimum  width of 350px;
    font-size: 20px; 
    color: #3c3c3c; 
   }
-}
+}*/
 
 
 @media screen and (min-width: 350px){
     hr{
     	display: none;
     }
-    #main-navigation li{
-	margin-right: 8%;
-   }
-
-    #main-navigation li:first-child{
-	margin-right: 8%;
-   }
-     #main-navigation li:last-child{
-    visibility: visible;
-    margin-top:10px;
-    margin-left:  56%;
-   }
-   #main-navigation {
-	width: 100%;
-	border-radius: 0;
-	margin: 0 auto;
-   }
-
-	#main-navigation a{
-	color: #fff;
-	text-decoration:none;
-	text-transform: uppercase;
-	font-size: 60%;
-   }
+  
 
    .container{
    	width: 94%;
@@ -458,21 +345,6 @@ The styles for my responsive design
 Start by a device with a minimum  width of 350px;
 
 */
-@media screen and (min-width: 950px){
-
- #main-navigation li:last-child {
-    visibility: visible;
-   
-   }
- #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
-  margin-right: 20%;
-
-       }
-  #main-navigation a{
-
-  font-size: 108%;
-   }
- }
 
 @media screen and (min-width: 412px)and (max-width: 950px){
  
@@ -480,29 +352,6 @@ Start by a device with a minimum  width of 350px;
   font-size: 25px;
   line-height: 140%;
 }
-    #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
-	   margin-right: 8%;
-
-   }
- 
-   #main-navigation li:last-child {
-    visibility: visible;
-    margin-left: 8%
-   }
-   #main-navigation {
-	width: 94%;
-   	border-radius: 5px;
-	margin: 0 auto;
-
-  margin-top: 20px;
-   }
-
-	#main-navigation a{
-	color: #fff;
-	text-decoration:none;
-	text-transform: uppercase;
-	font-size: 58%;
-   }
 
    .container{
    	width: 94%;
@@ -608,50 +457,12 @@ Start by a device with a minimum  width of 350px;
 	}
 
 }
- @media screen and (min-width: 570px){
- #main-navigation li:first-child,li:nth-child(3),li:last-child,li:nth-child(2){
-  margin-right: 10%;
 
-   }
-   #main-navigation a{
-  
-  font-size: 68%;
-   }
- }
  @media screen and (min-width: 960px){
-  
-  body{
-    padding: 60px;
-    padding-bottom: 0px;
-  }
-  #main-navigation li:first-child{
-  margin-right: 90px;
-
-   }
-   #main-navigation li:nth-child(3){
-    margin-right: 8%;
-  margin-left: 15px;
-   } 
-   #main-navigation li:nth-child(2){
-  margin-right: 8%;
-  margin-left: 20px;
-
-   }
-   #main-navigation li:last-child{
-    margin-right: 15px;
-    margin-left: 8%;
-   }
-   #main-navigation {
-
-    border-radius: 15px;
-   }
-
-  #main-navigation a{
-  color: #fff;
-  text-decoration:none;
-  text-transform: uppercase;
-  font-size: 78%;
-   }
+ 	body{
+ 		padding: 0;
+ 		margin: 0;
+ 	}
    .about_container h3{
     font-size: 32px;
     width: 70%;

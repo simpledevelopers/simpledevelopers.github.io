@@ -1,0 +1,165 @@
+
+#main-header{
+	padding: 5px;
+	background: blue;
+	opacity: 0.7;
+	width: 100%;
+	color: white;
+	position: fixed;
+	font-family: Lato;
+}
+#main-header ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#main-header ul li:hover{
+	padding: 5px;
+	background: black;
+	transition: 0.9s;
+
+}
+#main-header ul li:hover a{
+	color: white;
+}
+#main-header ul li{
+	display: inline-flex;
+	padding-top: 5px;
+	list-style: none;
+	margin-right: 10%;}
+
+
+#main-header ul li a{
+	color: white;
+	text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 100%;
+
+  }
+#main-header ul:after{
+	content:"";
+	clear: both;
+	display: both;
+
+}
+#main-header ul ul{
+	display: none;
+	background: black;
+	padding:0;
+	margin: 0;
+	position: absolute;
+	top: 100%;
+}
+#main-header ul ul li{
+	float: none;
+	position: relative;
+	display: block;
+
+}
+#main-header ul ul li a{
+	padding: 10px;
+	line-height: 15px;
+	letter-spacing: 2px;
+	color: white;
+	width: 200px;
+	text-align: left;
+}
+#main-header ul ul li a:hover{
+	color: white;
+	transition: 0.9s;
+}
+#main-header ul li:hover >ul{
+	display: block;
+
+}
+#main-header ul ul ul{
+	display: none;
+	background: black;
+	padding:0;
+	margin-left: 230px;
+	position: absolute;
+	top: 0%;
+}
+
+@media screen and (min-width: 280px){
+
+	#main-header ul li a{
+		font-size: 50%;
+	}
+
+	 #main-header ul ul li a{
+	     width: 70px;
+     }
+	#main-header ul ul ul{
+	margin-left: 90px; 
+    }
+   
+}
+@media screen and (min-width: 380px){
+
+	#main-header ul li a{
+		font-size: 70%;
+	}
+	 #main-header ul ul li a{
+	      width: 93px;
+     }
+	#main-header ul ul ul{
+	margin-left: 112.5px; 
+    }
+   
+}
+@media screen and (min-width: 550px){
+
+	#main-header ul li a{
+		font-size: 80%;
+	}
+	 #main-header ul ul li a{
+	      width: 106px;
+     }
+	#main-header ul ul ul{
+	margin-left: 126.5px; 
+    }
+
+    #main-header ul li{
+	margin-left:  3%;
+	padding: 5px;
+
+	}
+
+    #main-header ul li:hover{
+	padding: 5px;
+
+	}
+   
+}
+@media screen and (min-width: 960px){
+     #main-header{
+     	width: 90.5%;
+     	border-radius: 15px;
+     	padding:7px;
+     	margin:0;
+     }
+	#main-header ul li a{
+		font-size: 100%;
+	}
+	 #main-header ul ul li a{
+	      width: 300px;
+     }
+	#main-header ul ul ul{
+	margin-left: 319.5px; 
+    }
+
+    #main-header ul li{
+	margin-left:  4%
+
+	}
+
+    #main-header ul li:hover{
+	padding: 10px;
+
+	}
+   
+}
